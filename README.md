@@ -4,9 +4,10 @@ The goal of this project is to develop a simple react app for figma's config con
 
 ## Key technology 
 
-- React (JSX, Context, and Hooks)
-- Emotion(CSS), and Sanity
-- Git / Github
+- [React](https://reactjs.org/) (JSX, Context, and Hooks)
+- [Emotion(CSS)](https://emotion.sh/docs/introduction)
+- [Sanity](https://www.sanity.io/)
+- [Git / Github](https://github.com/)
 
 ## Step 1: Research
 
