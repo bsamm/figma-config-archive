@@ -22,6 +22,6 @@ I used figma to design a simple page and ensure the vision in my mind makes sens
 - https://www.figma.com/file/RD8hmMuZLObMRWq31m3Icn/figma-config-archive?node-id=0%3A1
 - https://www.figma.com/proto/RD8hmMuZLObMRWq31m3Icn/figma-config-archive?node-id=1%3A2&scaling=min-zoom&hide-ui=1
 
-## Step 3 Develop
+## Step 3: Develop
 
 - Create react app
