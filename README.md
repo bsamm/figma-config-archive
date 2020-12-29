@@ -2,7 +2,7 @@
 
 The goal of this project is to develop a simple react app for figma's config conference archived content. As the event conference continues to grow, it would be nice to have a centralized place to browse past content.
 
-## Key technology 
+## Key technology
 
 - [React](https://reactjs.org/) (JSX, Context, and Hooks)
 - [Emotion(CSS)](https://emotion.sh/docs/introduction)
@@ -25,4 +25,10 @@ I used figma to design a simple page and ensure the vision in my mind makes sens
 
 ## Step 3: Develop
 
-- Create react app
+- Create react app: `npx create-react-app figma-config-archive`
+- Run the app using: `yarn start`
+- View the app at [http://localhost:3000/](http://localhost:3000/)
+
+## References
+
+- https://reactjs.org/docs/create-a-new-react-app.html#create-react-app
