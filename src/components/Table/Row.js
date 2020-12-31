@@ -21,10 +21,10 @@ const Play = styled.div`
 class Row extends Component {
   render() {
     return (
-      <Tr>
+      <Tr key={this.props.index}>
         <Td>
-          <h1>Opening Keynote</h1>
-          <h3>Opening Keynote adf adsf fdsafdsfdsf fdsaf</h3>
+          <h1>{this.props.title}</h1>
+          <h3>{this.props.slug}</h3>
         </Td>
         <Td className='center'><h3>Keynote</h3></Td>
         <Td className='center'><h3>2020</h3></Td>
