@@ -34,9 +34,11 @@ I used figma to design a simple page and ensure the vision in my mind makes sens
   - Run `sanity deploy` to deploy and `sanity undeploy` to undeploy.
   - `npm install @sanity/block-content-to-react @sanity/image-url` for block WYSIWYG content
 
-## Step 4: Test and refactor
+## Step 4: Deploy
 
--
+- `sanity deploy`, then open https://figma-config-archive.sanity.studio/desk in the browser
+- Use netlify and gitub to setup simple CD from the `main` branch.
+- Add `https://figma-config-archive.netlify.app` to origins in sanity admin API settings.
 
 ## References
 
