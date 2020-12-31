@@ -24,11 +24,11 @@ class Row extends Component {
       <Tr key={this.props.index}>
         <Td>
           <h1>{this.props.title}</h1>
-          <h3>{this.props.slug}</h3>
+          <h3>with {this.props.speakerName}, {this.props.speakerTitle}, {this.props.speakerCompany}</h3>
         </Td>
-        <Td className='center'><h3>Keynote</h3></Td>
-        <Td className='center'><h3>2020</h3></Td>
-        <Td><a href="https://www.youtube.com/watch?v=lWy4fB3G9Gc" target="_blank" rel="noreferrer"><Play/></a></Td>
+        <Td className='center'><h3>{this.props.type}</h3></Td>
+        <Td className='center'><h3>{this.props.event}</h3></Td>
+        <Td><a href={this.props.link} target="_blank" rel="noreferrer"><Play/></a></Td>
       </Tr>
     )
   }

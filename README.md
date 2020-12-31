@@ -32,6 +32,7 @@ I used figma to design a simple page and ensure the vision in my mind makes sens
   - cd `figmaconfigarchive` then `sanity start` then open http://localhost:3333/ to see the sanity dashboard. figmaconfigarchive is the sanity instance.
   - Run `sanity cors add http://locahost:3000` from the `figmaconfigarchive`. View the addition here: https://manage.sanity.io/projects/9g7tx476/settings/api. Note: `Allow Credentials` needs to be on for this example.
   - Run `sanity deploy` to deploy and `sanity undeploy` to undeploy.
+  - `npm install @sanity/block-content-to-react @sanity/image-url` for block WYSIWYG content
 
 ## Step 4: Test and refactor
 
@@ -47,3 +48,4 @@ I used figma to design a simple page and ensure the vision in my mind makes sens
 - https://www.sanity.io/guides/build-your-first-blog-using-react
 - https://egghead.io/lessons/react-set-up-emotion-theming-within-a-reactjs-application
 - https://manage.sanity.io/
+- https://www.sanity.io/docs/schema-types

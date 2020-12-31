@@ -9,8 +9,14 @@ export default function AllPosts() {
   useEffect(() => {
      sanityClient
        .fetch(
-         `*[_type == "post"]{
-         title
+         `*[_type == "talk"]{
+         title,
+         event,
+         type,
+         link,
+         speakerName,
+         speakerCompany,
+         speakerTitle
      }`
        )
        .then((data) => setAllPosts(data))
@@ -22,8 +28,14 @@ export default function AllPosts() {
       {allPostsData &&
         allPostsData.map((post, index) => (
           <Row
-            title = {post.title}
-            key = {index}
+            key            = {index}
+            title          = {post.title}
+            speakerName    = {post.speakerName}
+            speakerTitle   = {post.speakerTitle}
+            speakerCompany = {post.speakerCompany}
+            event          = {post.event}
+            type           = {post.type}
+            link           = {post.link}
           />
         ))}
     </tbody>
