@@ -1,16 +1,29 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import reportWebVitals from './reportWebVitals';
-import { ThemeProvider } from '@emotion/react'
+import { ThemeProvider, useTheme, Global, css } from '@emotion/react'
 
 import './index.css';
 import App from './App';
 import { theme } from './shared/themes'
 
+const GlobalStyles = () => {
+  const theme = useTheme();
+  return (
+    <Global styles={css`
+      body {
+        font-family: ${theme.fontStyles.family};
+        font-size: ${theme.fontStyles.size};
+      }
+    `} />
+  )
+}
+
 ReactDOM.render(
   <React.StrictMode>
     <ThemeProvider theme={theme}>
       <App />
+      <GlobalStyles />
     </ThemeProvider>
   </React.StrictMode>,
   document.getElementById('root')

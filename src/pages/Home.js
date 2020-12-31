@@ -14,7 +14,7 @@ const Archive = styled.div`
   transform: rotate(-90deg);
   transform-origin: right;
   font-size: 90px;
-  padding: 260px 8px;
+  padding: 270px 0px;
 `;
 
 class Home extends Component {

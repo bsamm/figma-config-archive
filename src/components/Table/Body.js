@@ -3,8 +3,8 @@ import sanityClient from "../../client.js";
 
 import Row from './Row';
 
-export default function AllPosts() {
-  const [allPostsData, setAllPosts] = useState(null);
+export default function AllTalks() {
+  const [allTalksData, setAllTalks] = useState(null);
 
   useEffect(() => {
      sanityClient
@@ -19,23 +19,23 @@ export default function AllPosts() {
          speakerTitle
      }`
        )
-       .then((data) => setAllPosts(data))
+       .then((data) => setAllTalks(data))
        .catch(console.error);
    }, []);
 
   return (
     <tbody>
-      {allPostsData &&
-        allPostsData.map((post, index) => (
+      {allTalksData &&
+        allTalksData.map((talk, index) => (
           <Row
-            key            = {index}
-            title          = {post.title}
-            speakerName    = {post.speakerName}
-            speakerTitle   = {post.speakerTitle}
-            speakerCompany = {post.speakerCompany}
-            event          = {post.event}
-            type           = {post.type}
-            link           = {post.link}
+            itemNumber     = {index}
+            title          = {talk.title}
+            speakerName    = {talk.speakerName}
+            speakerTitle   = {talk.speakerTitle}
+            speakerCompany = {talk.speakerCompany}
+            event          = {talk.event}
+            type           = {talk.type}
+            link           = {talk.link}
           />
         ))}
     </tbody>

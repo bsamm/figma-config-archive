@@ -8,7 +8,7 @@ const Th = styled.th`
   top: 0;
   border-top: 2px solid;
   border-bottom: 2px solid;
-  font-family: ${props => props.theme.fontStyles.family};
+  font-weight: normal;
 `;
 
 class Header extends Component {
