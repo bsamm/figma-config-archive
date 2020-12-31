@@ -11,8 +11,8 @@ const Tr = styled.tr`
 `;
 
 const Play = styled.div`
-  border-width: 24px 0 24px 40px;
-  border-color: transparent transparent transparent #488CF2;
+  border-width: 22px 0 22px 36px;
+  border-color: transparent transparent transparent ${props => props.theme.colors.blue};
   border-style: solid;
   display: table;
   margin: 0 auto;

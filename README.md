@@ -40,3 +40,5 @@ I used figma to design a simple page and ensure the vision in my mind makes sens
 - https://medium.com/seek-blog/a-unified-styling-language-d0c208de2660
 - https://stackoverflow.com/questions/50361698/border-style-do-not-work-with-sticky-position-element
 - https://emotion.sh/docs/babel-macros
+- https://www.sanity.io/guides/build-your-first-blog-using-react
+- https://egghead.io/lessons/react-set-up-emotion-theming-within-a-reactjs-application
