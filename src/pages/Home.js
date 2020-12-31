@@ -5,16 +5,12 @@ import Table from '../components/Table/Table';
 import Logo  from '../components/Logo';
 import { Grid, Row, Col } from '../components/Grid';
 
-const ArchiveWrapper = styled.div`
-  position: fixed;
-  bottom: 0;
-`;
-
 const Archive = styled.div`
   transform: rotate(-90deg);
-  transform-origin: right;
-  font-size: 90px;
-  padding: 270px 0px;
+  font-size: 100px;
+  position: fixed;
+  bottom: 130px;
+  right: 69%;
 `;
 
 class Home extends Component {
@@ -24,9 +20,9 @@ class Home extends Component {
         <Row>
           <Col size={3} className='sidebar'>
             <Logo/>
-            <ArchiveWrapper>
-              <Archive>Archive</Archive>
-            </ArchiveWrapper>
+            <Archive>
+              Archive
+            </Archive>
           </Col>
           <Col size={9}>
             <div>
