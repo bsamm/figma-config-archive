@@ -29,6 +29,14 @@ I used figma to design a simple page and ensure the vision in my mind makes sens
 - Run the app using: `yarn start`
 - View the app at [http://localhost:3000/](http://localhost:3000/)
 
+## Step 4: Test and refactor
+
+-
+
 ## References
 
 - https://reactjs.org/docs/create-a-new-react-app.html#create-react-app
+- https://medium.com/swlh/create-a-responsive-grid-with-react-flexbox-styled-components-f7a55f607480
+- https://medium.com/seek-blog/a-unified-styling-language-d0c208de2660
+- https://stackoverflow.com/questions/50361698/border-style-do-not-work-with-sticky-position-element
+- https://emotion.sh/docs/babel-macros
